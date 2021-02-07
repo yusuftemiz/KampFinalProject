@@ -5,8 +5,7 @@ using System.Text;
 
 namespace DataAccess.Abstract
 {
-    //Dal(Data Access Layer) veya Dao ismiyle kullanılır.
-    public interface IProductDal:IEntityRepository<Product>
+    public interface ICustomerDal:IEntityRepository<Customer>
     {
     }
 }
